@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'mixin';
+
+.project__title {
+  font-family: $font-family;
+  margin-left: 30px;
+}
+
+.top__banner {
+  display: flex;
+  align-items: center;
+}
+
+.main__title {
+  font-size: 35px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  margin-left: 10px;
+}

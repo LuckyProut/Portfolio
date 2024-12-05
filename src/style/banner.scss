@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'mixin';
+
+#banner {
+  width: 800px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  @include mobile {
+    height: 111px; 
+    width: $full-width-mobile;
+    margin: 20px;
+  }
+  
+
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+

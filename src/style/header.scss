@@ -1,0 +1,52 @@
+@import 'variables';
+@import 'mixin';
+
+.header__container {
+  max-width: 1240px; 
+  max-height: 68px;
+  margin: 0 auto;   
+  display: flex;     
+  align-items: center; 
+  justify-content: space-between;
+  // padding-bottom: 45px;
+  @include mobile {
+    width: $full-width-mobile; 
+    padding: 0px;
+  }
+
+  img {
+    height: 200px;
+    @include mobile {
+      height: 47px; 
+    }
+  }
+
+  nav {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+}
+    &__site {
+      color: black;
+      margin: auto 25px;
+      text-decoration: none;
+      font-family: $font-family;
+      font-weight: $font-weight-500;
+      font-size: $font-size-24;
+      @include mobile {
+        font-size: $font-size-12;
+        display: flex;
+        align-items: end;
+        margin-right: 0;
+        text-transform: uppercase;
+      }
+
+      &.active {
+        border-bottom: 1px solid black;
+      }
+  }
+}
+    
+  
+
+

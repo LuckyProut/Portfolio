@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixin';
+
+.about__container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center; /* Aligne verticalement les éléments */
+    justify-content: center;
+    gap: 100px; /* Ajoute un espace entre l'image et le texte */
+  }
+  
+  .about__image {
+    width: 400px; /* Ajustez la taille de l'image selon vos besoins */
+    border-radius: 50%; /* Optionnel : pour rendre l'image ronde */
+    object-fit: cover; /* Optionnel : pour s'assurer que l'image garde ses proportions */
+  }
+  
+  .about__text {
+    max-width: 500px; /* Limite la largeur du texte */
+    text-align: justify;
+    font-family: $font-family;
+  }
+  
+  .about__title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

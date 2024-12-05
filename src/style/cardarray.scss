@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixin';
+
+.location__background {
+    display: flex;
+    flex-wrap: wrap;
+    @include mobile {
+      flex-direction: column;
+      justify-content: center;
+      width: $full-width-mobile;
+      margin: -10px;
+      padding: 0;
+      }
+    }
