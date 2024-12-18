@@ -15,7 +15,7 @@ const About = () => {
             Après avoir travaillé pendant presque 10 ans dans la restauration, j'ai pris la décision d'entamer une reconversion professionnelle en débutant une formation visant à m'aider à atteindre mes objectifs.
           </p>
           <p>
-            En l'espace de 6 mois, j'ai réussi à me former dans plusieurs domaines, que ça soit du côté du front-end (HTML, CSS, JS, etc...) ou bien du back-end (Node.js, Express, Base de données, etc...).
+            En l'espace de 6 mois,, grâce à la formation Développeur Web d'OpenClassroom, j'ai réussi à me former dans plusieurs domaines, que ça soit du côté du front-end (HTML, CSS, JS, etc...) ou bien du back-end (Node.js, Express, Base de données, etc...).
             Je continue, en autodidacte, à me former à de nouvelles technologies qui me permettraient de continuer dans ma lancer d'évolution dans mes compétences.
           </p>
         </div>

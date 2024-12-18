@@ -1,11 +1,12 @@
 import React from "react";
 import "../../style/banner.scss";
 
-function Banner({ title, picture}) {
+function Banner({video}) {
     return (
         <div id="banner">
-                <img src={picture} alt="bannière"/>
-                <h1>{title}</h1>
+            <video autoPlay loop muted>
+                <source src={video} type="video/mp4" />  
+            </video>
         </div>
     );
 }

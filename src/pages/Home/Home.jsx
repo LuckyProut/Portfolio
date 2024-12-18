@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../../components/banner/banner';
-import bannerImg from "../../img/bannerImg.gif"
+import bannerImg from "../../img/bannerImg.mp4"
 import Card from '../../components/card/card';
 import Data from '../../data/data.json'
 import '../../style/cardarray.scss'
@@ -13,9 +13,8 @@ const Home = () => {
     <>
     <div className='top__banner'>
       <Banner 
-        picture={bannerImg}
+        video={bannerImg}
       />
-      <h1 className='main__title'>Développement Web<br />Front-End<br/>Back-End<br />Optimisation Web</h1>
       </div>
       <h2 className='project__title'>Mes Réalisations</h2>
       <section className='location__background'>
