@@ -17,14 +17,15 @@ const Home = () => {
       />
       <h1 className='main__title'>Développement Web<br />Front-End<br/>Back-End<br />Optimisation Web</h1>
       </div>
-      <h2 className='project__title'>Réalisations</h2>
+      <h2 className='project__title'>Mes Réalisations</h2>
       <section className='location__background'>
-        {Data.map((locationData) => (
+        {Data.map((Data) => (
           <Card
-            key={locationData.id}
-            id={locationData.id}
-            title={locationData.title}
-            cover={locationData.cover}
+            key={Data.id}
+            id={Data.id}
+            title={Data.title}
+            cover={Data.cover}
+            techno={Data.techno}
           />
         ))}
       </section>
