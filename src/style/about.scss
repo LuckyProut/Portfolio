@@ -8,18 +8,43 @@
     align-items: center; /* Aligne verticalement les éléments */
     justify-content: center;
     gap: 100px; /* Ajoute un espace entre l'image et le texte */
+    @include mobile {
+      flex-direction: column;
+      gap: 50px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    @include tablet {
+      width: 100%;
+      gap: 30px;
+    }
   }
   
   .about__image {
     width: 400px; /* Ajustez la taille de l'image selon vos besoins */
     border-radius: 50%; /* Optionnel : pour rendre l'image ronde */
     object-fit: cover; /* Optionnel : pour s'assurer que l'image garde ses proportions */
+    @include tablet {
+      width: 30%;
+    }
+    @include mobile {
+      width: 90%;
+    }
+    
   }
   
   .about__text {
     max-width: 500px; /* Limite la largeur du texte */
     text-align: justify;
     font-family: $font-family;
+    @include tablet {
+      width: 60%;
+    }
+    @include mobile {
+      width: 90%;
+    }
+    
+    
   }
   
   .about__title {
@@ -30,4 +55,45 @@
 .about__form {
   display: flex;
   justify-content: center;
+  
+}
+
+
+.competence__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: $font-family;
+}
+
+.competence {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  @include mobile {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.competence__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.competence__name {
+  font-family: $font-family;
+}
+
+.competence img {
+  max-height: 100px;
+  @include tablet {
+    width: 60%;
+  }
+  @include mobile {
+    width: 80%;
+  }
+
 }

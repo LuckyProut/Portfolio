@@ -4,6 +4,10 @@
 .location__card {
   text-decoration: none;
 
+  @include tablet {
+    width: 384px;
+  }
+
   @include mobile {
     width: $full-width-mobile;
     height: 270px;
@@ -29,6 +33,7 @@
       height: 100%;
       border-radius: 15px;
       transition: transform 0.3s ease-in-out; 
+     
       
       @include mobile {
         height: 255px;
@@ -63,11 +68,8 @@
       .location__card:hover & {
         transform: translateY(-10px); 
       }
-    }
-    
-
-    
-    
+    }   
    }
 }
+
  

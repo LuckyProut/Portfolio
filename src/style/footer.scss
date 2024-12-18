@@ -23,6 +23,9 @@ footer {
     @include mobile {
       flex-direction: column ;
     }
+    @include tablet {
+      flex-direction: column;
+    }
   }
 }
 
@@ -36,6 +39,10 @@ footer {
   @include mobile {
     top: 0px;
     left: 50px;
+  }
+  @include tablet {
+    top: 0px;
+    left: 45px;
   }
   
 }
@@ -54,6 +61,10 @@ footer {
   @include mobile {
     top: -25px;
     left: 75px;
+  }
+  @include tablet {
+    top: -25px;
+    left: 80px;
   }
 }
 

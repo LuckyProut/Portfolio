@@ -18,8 +18,17 @@ body {
     @media screen and (max-width: 375px) {
         padding-top: 20px;
       }
+
+    @media screen and (max-width: 768px) {
+        padding-top: 20px;
+      }
 }
 
+main {
+    width: 100%; /* S'assurer que le main ne dépasse pas la largeur du parent */
+    max-width: 100%; /* Limiter à la largeur de l'écran */
+    margin: 0 auto; /* Centrer le contenu si nécessaire */
+}
 
 
 code {
@@ -27,6 +36,12 @@ code {
 }
 
 @media (min-width: $breakpoint-mobile) { 
+    body {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: $breakpoint-tablet) { 
     body {
         max-width: 100%;
     }
