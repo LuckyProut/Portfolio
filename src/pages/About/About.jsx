@@ -8,7 +8,6 @@ import reactIMG from  '../../img/react.webp'
 import nosqlIMG from  '../../img/NoSql.png'
 import jsIMG from  '../../img/js.webp'
 import '../../style/about.scss';
-import ContactForm from '../../components/form/form';
 
 
 const About = () => {
@@ -57,7 +56,7 @@ const About = () => {
           <img src={nosqlIMG} alt='logo NoSQL'></img>
           <p className='competence__name'>NoSQL</p>
         </div>
-        </div><ContactForm /></>
+        </div></>
     );
   };
   

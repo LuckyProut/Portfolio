@@ -9,7 +9,8 @@ function ContactForm() {
         method="POST"
         style={{ maxWidth: "400px", margin: "0 auto" }}
       >
-        <h2>Une question?</h2>
+        <h2>Entrer en contact</h2>
+        <p className='form__text__description'>Si vous avez des questions, une opportunité d'emploi ou un projet en tête, n'hésitez pas à me contacter. Je reste à votre disposition pour toutes demandes.</p>
         <label htmlFor="name">Nom :</label>
         <input className='info__input' type="text" id="name" name="name" required />
             <br />

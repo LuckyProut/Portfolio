@@ -10,6 +10,7 @@ function Header() {
             <nav>
                 <NavLink to="/About" className="header__container__site lien-menu">À Propos</NavLink>
                 <NavLink to="/" className="header__container__site lien-menu">Projets</NavLink>
+                <NavLink to="/Contact" className="header__container__site lien-menu">Contact</NavLink>
             </nav>
         </header>
     );

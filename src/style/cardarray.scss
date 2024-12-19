@@ -4,6 +4,13 @@
 .project__background {
     display: flex;
     flex-wrap: wrap;
+    // @include tablet {
+    //   flex-direction: row;
+    //   justify-content: center;
+    //   width: $full-width-mobile;
+    //   margin: -10px;
+    //   padding: 0;
+    //   }
     @include mobile {
       flex-direction: column;
       justify-content: center;

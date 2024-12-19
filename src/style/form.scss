@@ -1,14 +1,7 @@
 @import 'variables';
 @import 'mixin';
 
-.form__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
 
-  
 .form__container h2 {
     margin-bottom: 20px;
     font-family: $font-family;
@@ -32,8 +25,11 @@
     font-size: 14px;
     font-family: $font-family;
     transition: border-color 0.3s;
-    @include mobile {
+    @include tablet {
       width: 100%;
+    }
+    @include mobile {
+      width: 80%;
     }
    
   }
@@ -47,7 +43,7 @@
     font-family: $font-family;
   }
   
-  .form-container button {
+  .form__container button {
     width: 200px;
     padding: 10px 15px;
     background-color: #0071EB;
@@ -60,16 +56,37 @@
     font-family: $font-family;
   }
   
-  .form-container button:hover {
+  .form__container button:hover {
     background-color: #0056b3; 
   }
   
   .info__input {
     width: 200px;
+    @include mobile {
+      width: 100%;
+      gap: 30px;
+    }
   }
 
   .info__message {
     width: 500px;
     height: 200px;
     resize: none;
+    @include mobile {
+      width: 100%;
+      gap: 30px;
+    }
+  }
+
+  .form__text__description {
+    font-family: $font-family;
+    width: 520px;
+    text-align: justify;
+    @include tablet {
+      width: 100%;
+    }
+    @include mobile {
+      width: 90%;
+      gap: 30px;
+    }
   }
