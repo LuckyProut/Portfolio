@@ -3,9 +3,9 @@ import '../../style/form.scss';
 
 function ContactForm() {
     return (
-    <div className="form-container">
+    <div className="form__container">
       <form
-        action="https://formspree.io/f/your_form_id" // Remplacez "your_form_id" par votre ID de formulaire
+        action="https://formspree.io/f/xvgojlqp" 
         method="POST"
         style={{ maxWidth: "400px", margin: "0 auto" }}
       >

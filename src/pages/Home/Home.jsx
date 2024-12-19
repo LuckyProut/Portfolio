@@ -17,7 +17,7 @@ const Home = () => {
       />
       </div>
       {/* <h2 className='project__title'>Mes Réalisations</h2> */}
-      <section className='location__background'>
+      <section className='project__background'>
         {Data.map((Data) => (
           <Card
             key={Data.id}

@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'mixin';
 
-.location__background {
+.project__background {
     display: flex;
     flex-wrap: wrap;
     @include mobile {

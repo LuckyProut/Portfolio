@@ -38,7 +38,8 @@
 		"https://i.ibb.co/3y4ZP8m/sophiebluel2.jpg",
 		"https://i.ibb.co/CzX5Cn1/sophiebluel3.jpg"
 	],
-	"description": "Avec ce projet, j'ai dû créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. J'ai travaillé sur la partie Front-End du site, où j'ai développé la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela impliquera la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias."
+	"description": "Avec ce projet, j'ai dû créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. J'ai travaillé sur la partie Front-End du site, où j'ai développé la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela impliquera la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
+	"problematique" : "Salut"
 },
 {
 	"id": "3",

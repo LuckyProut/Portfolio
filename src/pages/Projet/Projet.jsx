@@ -1,5 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import Data from '../../data/data.json';
 import Gallery from '../../components/gallery/gallery';
 import Description from '../../components/description/description';
@@ -9,11 +11,15 @@ import '../../style/project.scss';
 function Projet() {
   const { id } = useParams(); 
   const project = Data.find((item) => item.id === id);
+  const navigate = useNavigate();
 
  
-  if (!project) {
-    return <p>Projet introuvable</p>;
-  }
+  useEffect(() => {
+    if (!project) {
+        navigate('/NotFound');
+    }
+}, [project, navigate]);
+if (!project) return null;
 
   return (
     <>

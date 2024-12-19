@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'mixin';
 
-.form-container {
+.form__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,12 +9,12 @@
   
 
   
-.form-container h2 {
+.form__container h2 {
     margin-bottom: 20px;
     font-family: $font-family;
   }
   
-  .form-container label {
+  .form__container label {
     display: block;
     margin-bottom: 5px;
     font-size: 14px;
@@ -23,8 +23,8 @@
     
   }
   
-  .form-container input,
-  .form-container textarea {
+  .form__container input,
+  .form__container textarea {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
@@ -40,9 +40,9 @@
 
   
   
-  .form-container input:focus,
-  .form-container textarea:focus {
-    border-color: black; /* Bordure bleue au focus */
+  .form__container input:focus,
+  .form__container textarea:focus {
+    border-color: black;
     outline: none;
     font-family: $font-family;
   }
@@ -50,7 +50,7 @@
   .form-container button {
     width: 200px;
     padding: 10px 15px;
-    background-color: #0071EB; /* Couleur bleue */
+    background-color: #0071EB;
     border: none;
     border-radius: 5px;
     color: white;
