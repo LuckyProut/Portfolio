@@ -1,0 +1,56 @@
+@import 'variables';
+@import 'mixin';
+
+.gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  width: 50%;
+  @include tablet {
+    width: 100%;
+    justify-content: center;
+  }
+
+  @include mobile {
+    max-width: $full-width-mobile;
+    margin: 20px;
+  }
+  
+  &__image {
+    min-width: 100%;
+    height: $image-height;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    @include mobile {
+      max-height: 255px;
+    }
+  }
+
+  &__button {
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    cursor: pointer;
+
+    &--left {
+      left: $button-size;
+      @include mobile {
+        height: 24px;
+        width: 24px;
+      }
+    }
+
+    &--right {
+      right: $button-size; 
+      @include mobile {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+
+}

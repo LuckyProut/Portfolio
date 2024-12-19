@@ -1,0 +1,51 @@
+@import 'variables';
+@import 'mixin';
+
+.project {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 150px;
+    @include tablet {
+        flex-direction: column;
+        width: 90%; /* Vous pouvez aussi définir une largeur fixe ou dynamique ici */
+        margin: 0 auto; /* Pour centrer le conteneur */
+        justify-content: center;
+        gap: 0px;
+        align-items: center; /* Ajoutez ceci pour centrer horizontalement les enfants */
+    }
+    
+    
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;  // Par défaut, en mode desktop
+        font-family: $font-family;
+        font-size: 18px;
+        text-align: justify;
+    }
+        @include mobile {
+        margin-top: 0;  // Remise à zéro de la marge en mode mobile
+        }
+}
+
+.project h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    @include mobile {
+        font-size: 24px;
+    }
+}
+
+.project__competence {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+.project__competence img{
+    max-width: 100px;
+    max-height: 100px;
+}

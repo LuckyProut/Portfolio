@@ -16,7 +16,7 @@ const Home = () => {
         video={bannerImg}
       />
       </div>
-      <h2 className='project__title'>Mes Réalisations</h2>
+      {/* <h2 className='project__title'>Mes Réalisations</h2> */}
       <section className='location__background'>
         {Data.map((Data) => (
           <Card

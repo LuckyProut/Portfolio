@@ -2,12 +2,21 @@
 {
 	"id": "1",
 	"title": "Booki",
-	"techno": "HTML",
 	"cover": "https://i.ibb.co/YRWLynL/Orange-Modern-Computer-Website-Instagram-Post.png",
 	"tags": [
 			"HTML",
 			"CSS"
-		]
+		],
+	"competence": [
+		"https://i.ibb.co/n3f8btZ/HTML5.webp",
+		"https://i.ibb.co/V2gXk52/CSS3.webp"
+	],
+	"pictures": [
+		"https://i.ibb.co/9sPMX5F/booki1.jpg",
+		"https://i.ibb.co/VYkY1GG/booki2.jpg"
+	],
+	"description": "J'ai dû créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Ma mission principale était d'intégrer l'interface responsive du site.",
+	"problematique": "Sur ce projet, je n'ai pas rencontré de réel problèmatique. Le fait d'avoir eu à préparer un examen d'entrée basé sur ces compétences m'a permis d'arriver sur ce projet avec de très bonnes bases." 
 },
 
 {
@@ -18,7 +27,18 @@
 			"HTML",
 			"CSS",
 			"JavaScript"
-		]
+		],
+	"competence": [
+		"https://i.ibb.co/n3f8btZ/HTML5.webp",
+		"https://i.ibb.co/V2gXk52/CSS3.webp",
+		"https://i.ibb.co/8BvjspQ/js.webp"
+	],
+	"pictures": [
+		"https://i.ibb.co/kXM79nj/sophiebluel1.jpg",
+		"https://i.ibb.co/3y4ZP8m/sophiebluel2.jpg",
+		"https://i.ibb.co/CzX5Cn1/sophiebluel3.jpg"
+	],
+	"description": "Avec ce projet, j'ai dû créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. J'ai travaillé sur la partie Front-End du site, où j'ai développé la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela impliquera la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias."
 },
 {
 	"id": "3",
@@ -28,25 +48,56 @@
 			"Débuggage",
 			"Référencement",
 			"Optimisation"
-		]
+		],
+	"competence": [
+	"https://i.ibb.co/30FRmdx/seo.webp",
+	"https://i.ibb.co/nrkvLXS/opti.webp",
+	"https://i.ibb.co/wMHTbVz/debug.webp"
+	],
+	"pictures": [
+	"https://i.ibb.co/YPBQqj8/nina1.jpg",
+	"https://i.ibb.co/9gcQ1JG/nina2.jpg"
+	],
+	"description": "Sur ce projet j'ai dû, dans un premier temps, identifier les problèmes de chargement et de référencement dans le but d'améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche."
 },
 {
 	"id": "4",
 	"title": "Kasa",
 	"cover": "https://i.ibb.co/LgzQLvW/Orange-Modern-Computer-Website-Instagram-Post-3.png",
 	"tags": [
-			"React",
+			"React.js",
 			"Sass"
-		]
+		],
+	"competence": [
+		"https://i.ibb.co/pjHfVVT/react.webp",
+		"https://i.ibb.co/By5YbTt/sass.webp"
+	],
+	"pictures": [
+	"https://i.ibb.co/9Wc2zZY/kasa1.jpg",
+	"https://i.ibb.co/QjNQYNh/kasa2.jpg",
+	"https://i.ibb.co/s6T3rYS/kasa3.jpg"
+	],
+	"description": "Dans ce projet, je suis venu à implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. J'ai travaillé sur la logique de présentation des données et les composants React. J'ai aussi utilisé React Router afin de configurer la navigation entre les différentes pages de l'application."
 },
 {
 	"id": "5",
 	"title": "Mon Vieux Grimoire",
 	"cover": "https://i.ibb.co/SKpWz5d/Orange-Modern-Computer-Website-Instagram-Post-4.png",
 	"tags": [
-			"Node.JS",
+			"Node.js",
 			"Express",
-			"MongoDB"
-		]
+			"NoSQL"
+		],
+	"competence": [
+		"https://i.ibb.co/30n90hT/Node.webp",
+		"https://i.ibb.co/tHn8X4K/NoSql.png"
+	],
+	"pictures": [
+	"https://i.ibb.co/jJ9rbw5/mvg1.jpg", 
+	"https://i.ibb.co/f9kWfKj/mvg2.jpg",
+	"https://i.ibb.co/3Mm7vQD/mvg3.jpg",
+	"https://i.ibb.co/Nmfgh2N/mvg4.jpg" 
+	],
+	"description": "Mon rôle a été de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela a impliqué la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données. J'ai développé les modèles de données et implémenté les opérations CRUD pour la gestion des livres et des notations. J'ai aussi implémenté un système d'authentification sécurisé pour les utilisateurs du site. "
 }
 ]
