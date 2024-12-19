@@ -4,9 +4,7 @@
 .gallery {
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 75px;
   width: 50%;
   @include tablet {
     width: 100%;

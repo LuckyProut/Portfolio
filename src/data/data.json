@@ -41,7 +41,8 @@
 		"https://i.ibb.co/CzX5Cn1/sophiebluel3.jpg"
 	],
 	"description": "Avec ce projet, j'ai dû créer une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. J'ai travaillé sur la partie Front-End du site, où j'ai développé la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela impliquera la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias.",
-	"problematique" : "Salut"
+	"problematique" : "J'ai rencontré pas mal de problèmatiques avec les différentes requêtes HTTP. J'ai réussi à surmonter ces problèmes en me renseignant grandement au travers de différents livres qui traitent du sujet.",
+	"github": "https://github.com/LuckyProut/Project3-Portfolio-architecte-sophie-bluel"
 },
 {
 	"id": "3",
@@ -61,7 +62,9 @@
 	"https://i.ibb.co/YPBQqj8/nina1.jpg",
 	"https://i.ibb.co/9gcQ1JG/nina2.jpg"
 	],
-	"description": "Sur ce projet j'ai dû, dans un premier temps, identifier les problèmes de chargement et de référencement dans le but d'améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche."
+	"description": "Sur ce projet j'ai dû, dans un premier temps, identifier les problèmes de chargement et de référencement dans le but d'améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche.",
+	"problematique": "La plus grande difficulté sur ce projet a été de gérer correctement les différents types de référencements, en particulier au niveau des cards Twitter ou Google où j'avais des difficultés à afficher concrètement ce que je voulais. En fouillant bien sur les deux sites, on trouve finalement réponse à toutes ces questions.",
+	"github": "https://github.com/LuckyProut/Projet4-Nina-Carducci-Dev"
 },
 {
 	"id": "4",
@@ -80,7 +83,9 @@
 	"https://i.ibb.co/QjNQYNh/kasa2.jpg",
 	"https://i.ibb.co/s6T3rYS/kasa3.jpg"
 	],
-	"description": "Dans ce projet, je suis venu à implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. J'ai travaillé sur la logique de présentation des données et les composants React. J'ai aussi utilisé React Router afin de configurer la navigation entre les différentes pages de l'application."
+	"description": "Dans ce projet, je suis venu à implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. J'ai travaillé sur la logique de présentation des données et les composants React. J'ai aussi utilisé React Router afin de configurer la navigation entre les différentes pages de l'application.",
+	"problematique": "La chose qui m'a posé le plus de problème sur ce projet était l'utilisation de props et la réutilisation de composants. J'ai eu énormément de problèmes à mettre correctement en place mes collapses. Après plusieurs échanges avec mon mentor, j'ai finalement compris que ce qui pouvait poser problème était que je fesais directement le mappage dans le composant plutôt que dans les différentes pages de mon projet.",
+	"github" : "https://github.com/LuckyProut/p5-Kasa"
 },
 {
 	"id": "5",
@@ -102,6 +107,7 @@
 	"https://i.ibb.co/Nmfgh2N/mvg4.jpg" 
 	],
 	"description": "Mon rôle a été de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela a impliqué la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données. J'ai développé les modèles de données et implémenté les opérations CRUD pour la gestion des livres et des notations. J'ai aussi implémenté un système d'authentification sécurisé pour les utilisateurs du site. ",
+	"problematique": "Le plus grand obstacle dans ce projet à été la gestion du middleware pour la gestion des images afin d'être en accord avec le Green Code Initiative. L'échange avec l'examinateur de ma soutenance a été des plus importants dans la réussite de cette étape. Il a prit le temps de m'expliquer les différentes possibilités de combinaisons entre Multer et Sharp. En poussant un peu plus loin, avec les documentations officielles, j'ai pû franchir cette obstacle et valider ce projet.",
 	"github" : "https://github.com/LuckyProut/Projet6-book"
 }
 ]

@@ -1,11 +1,11 @@
 @import 'variables';
 @import 'mixin';
 
-button {
+.button__url  {
     background-color: black;
     border-radius: 20px;
-    width: 150px;
-    height: 100px;
+    width: 120px;
+    height: 90px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -15,10 +15,10 @@ button {
     }
 }
 
-button:hover {
+.button__url:hover {
     background-color: rgb(61, 54, 54); 
   }
 
-img {
-    height: 50px;
+.button__url img {
+    max-height: 50px;
 }
