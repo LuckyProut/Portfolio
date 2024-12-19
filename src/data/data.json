@@ -16,7 +16,9 @@
 		"https://i.ibb.co/VYkY1GG/booki2.jpg"
 	],
 	"description": "J'ai dû créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Ma mission principale était d'intégrer l'interface responsive du site.",
-	"problematique": "Sur ce projet, je n'ai pas rencontré de réel problèmatique. Le fait d'avoir eu à préparer un examen d'entrée basé sur ces compétences m'a permis d'arriver sur ce projet avec de très bonnes bases." 
+	"problematique": "Sur ce projet, je n'ai pas rencontré de réel problèmatique. Le fait d'avoir eu à préparer un examen d'entrée basé sur ces compétences m'a permis d'arriver sur ce projet avec de très bonnes bases." ,
+	"github": "https://github.com/LuckyProut/Projet-2-Booki-HTML-CSS",
+	"siteurl": "https://luckyprout.github.io/Projet-2-Booki-HTML-CSS/"
 },
 
 {
@@ -99,6 +101,7 @@
 	"https://i.ibb.co/3Mm7vQD/mvg3.jpg",
 	"https://i.ibb.co/Nmfgh2N/mvg4.jpg" 
 	],
-	"description": "Mon rôle a été de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela a impliqué la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données. J'ai développé les modèles de données et implémenté les opérations CRUD pour la gestion des livres et des notations. J'ai aussi implémenté un système d'authentification sécurisé pour les utilisateurs du site. "
+	"description": "Mon rôle a été de créer un serveur avec Express et de le connecter à une base de données MongoDB. Cela a impliqué la mise en place de la structure du serveur et la gestion de la communication entre le serveur et la base de données. J'ai développé les modèles de données et implémenté les opérations CRUD pour la gestion des livres et des notations. J'ai aussi implémenté un système d'authentification sécurisé pour les utilisateurs du site. ",
+	"github" : "https://github.com/LuckyProut/Projet6-book"
 }
 ]

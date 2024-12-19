@@ -26,9 +26,11 @@
     object-fit: cover; /* Optionnel : pour s'assurer que l'image garde ses proportions */
     @include tablet {
       width: 30%;
+      height: 30%;
     }
     @include mobile {
       width: 90%;
+      height: 90%;
     }
     
   }
@@ -91,9 +93,11 @@
   max-height: 100px;
   @include tablet {
     width: 60%;
+    height: 60%;
   }
   @include mobile {
     width: 80%;
+    height: 80%;
   }
 
 }

@@ -6,7 +6,12 @@ import Data from '../../data/data.json';
 import Gallery from '../../components/gallery/gallery';
 import Description from '../../components/description/description';
 import Competence from '../../components/competence/competence';
+import ButtonGithub from '../../components/button/github';
+import ButtonSite from '../../components/button/site';
+import github from "../../img/github2.png";
+import siteweb from "../../img/www.webp";
 import '../../style/project.scss';
+
 
 function Projet() {
   const { id } = useParams(); 
@@ -35,7 +40,16 @@ if (!project) return null;
         <Competence competence={project.competence}/>
         </div>
         </div>
+        
     </div>
+    <div className='button__site'>
+        <ButtonGithub
+        github={project.github}
+        image={github} />
+        <ButtonSite
+        siteurl={project.siteurl}
+        image={siteweb} />
+        </div>
     </>
 );
 }   

@@ -38,6 +38,8 @@
 
     &--left {
       left: $button-size;
+      height: 50px;
+      width: 50px;
       @include mobile {
         height: 24px;
         width: 24px;
@@ -46,6 +48,8 @@
 
     &--right {
       right: $button-size; 
+      height: 50px;
+      width: 50px;
       @include mobile {
         height: 24px;
         width: 24px;
