@@ -2,7 +2,7 @@
   "name": "p5-kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://LuckyProut.github.io/Portfolio",
+  "homepage": "https://LuckyProut.github.io/Home",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.17.0",
