@@ -22,7 +22,7 @@ const About = () => {
           </p>
           <p>
             En l'espace de 6 mois, grâce à la formation Développeur Web d'OpenClassroom, j'ai réussi à me former dans plusieurs domaines, que ça soit du côté du front-end (HTML, CSS, JS, etc...) ou bien du back-end (Node.js, Express, Base de données, etc...).
-            Je continue, en autodidacte, à me former à de nouvelles technologies qui me permettraient de continuer dans ma lancer d'évolution dans mes compétences.
+            Je continue, en autodidacte, à me former à de nouvelles technologies qui me permettraient de continuer dans ma lancée d'évolution dans mes compétences.
           </p>
         </div>
       </div>
